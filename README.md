@@ -17,7 +17,7 @@ _A web application that gets a user inputted string, the user chooses a word, in
 ## Specifications
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **User enters a string. User chooses a word. User provides a replacement word. The string is returned with the word replaced.* | "Hello world", "world", "universe" | "Hello universe"|
+| **User enters a string. User chooses a word. User provides a replacement word. The string is returned with the word replaced.** | "Hello world", "world", "universe" | "Hello universe"|
 
 ## Known Bugs
 
