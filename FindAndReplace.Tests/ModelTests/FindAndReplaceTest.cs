@@ -13,5 +13,12 @@ namespace FindAndReplace.Tests
       Assert.AreEqual("Hello universe", testFindAndReplace.PerformStringReplacement("Hello world", "world", "universe"));
     }
 
+    [TestMethod]
+    public void SecondString_Return_SecondStringWithWordReplaced()
+    {
+      FindAndReplace testFindAndReplace = new FindAndReplace();
+      Assert.AreEqual("Today, I will eat lunch early in the day", testFindAndReplace.PerformStringReplacement("Today, I will eat dinner early in the day", "dinner", "lunch"));
+    }
+
   }
 }
